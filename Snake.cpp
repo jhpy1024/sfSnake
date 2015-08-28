@@ -161,6 +161,6 @@ void Snake::move()
 
 void Snake::render(sf::RenderWindow& window)
 {
-	for (auto node : nodes_)
+	for (auto& node : nodes_)
 		node.render(window);
 }
